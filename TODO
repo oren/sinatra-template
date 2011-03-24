@@ -1,0 +1,10 @@
+remove config from git and update wiki
+db - change :value to :content
+   
+   window.owenFunctions.foo = function(){}
+   window['owenVars'] = {  test: 'string' }
+
+
+
+
+
