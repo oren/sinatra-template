@@ -1,0 +1,36 @@
+app.rb           # require sinatra, haml, vendor'd gems, models/init, routes/init, helpers/init
+helpers/         
+    init.rb      # Requires each helper file
+    helper1.rb   # Related helper methods
+
+models/          
+    init.rb      # Require sequel, set up the DB; require each model, in controlled order
+    foo.rb       # One or more Sequel models
+    bar.rb       # One or more related models
+
+routes/          
+    init.rb      # Require each route, in controlled order
+    admin.rb     # One or more routes related to administration
+    foo.rb       # One or more routes related to some feature
+
+views/
+    layout.haml  # Common layout
+    foo.haml     # Specific view
+    bar.haml     # Specific view
+
+
+Install
+-------
+git clone git@github.com:oren/sinatra-template.git
+rvm install ruby-1.9.2-p136
+cd sinatra-template
+rvm gemset import
+
+Run
+---
+shotgun
+
+Enjoy
+-----
+http://127.0.0.1:9393
+
