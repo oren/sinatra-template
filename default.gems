@@ -1,0 +1,5 @@
+# default.gems generated gem export file. Note that any env variable settings will be missing. Append these after using a ';' field separator
+rack -v1.3.2
+shotgun -v0.9
+sinatra -v1.2.6
+tilt -v1.3.2
