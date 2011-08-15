@@ -19,10 +19,14 @@ views/
     bar.haml     # Specific view
 
 
+Note:
+I used cucumber-sinatra gem to generate the initial setup files of cucumber with sinatra.
+I run this command: cucumber-sinatra init MyApp app.rb
+
 Install
 -------
 git clone git@github.com:oren/sinatra-template.git
-rvm install ruby-1.9.2-p136
+rvm install ruby-1.9.2-p290
 cd sinatra-template
 rvm gemset import
 
@@ -33,4 +37,10 @@ shotgun
 Enjoy
 -----
 http://127.0.0.1:9393
+
+Run the cucumber tests
+----------------------
+install tests gems
+rvm gemset import test.gem
+cucumber features
 
