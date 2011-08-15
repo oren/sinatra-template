@@ -28,8 +28,8 @@ capybara-1.0.1
 
 #cucumber
 json-1.5.3
-installed gherkin-2.4.6
-installed term-ansicolor-1.0.6
-installed builder-3.0.0
-installed cucumber-1.0.2
+gherkin-2.4.6
+term-ansicolor-1.0.6
+builder-3.0.0
+cucumber-1.0.2
 
