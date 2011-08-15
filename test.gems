@@ -1,0 +1,35 @@
+#rspec
+rspec-core-2.6.4
+rspec-expectations-2.6.0
+rspec-mocks-2.6.0
+rspec-2.6.0
+
+#capybara
+nokogiri-1.5.0
+mime-types-1.16
+json_pure-1.5.3.
+rubyzip-0.9.4
+ffi-1.0.9
+childprocess-0.2.1
+selenium-webdriver-2.4.0
+rack-test-0.6.1
+xpath-0.1.4
+capybara-1.0.1
+nokogiri-1.5.0
+mime-types-1.16
+json_pure-1.5.3
+rubyzip-0.9.4
+ffi-1.0.9
+childprocess-0.2.1
+selenium-webdriver-2.4.0
+rack-test-0.6.1
+xpath-0.1.4
+capybara-1.0.1
+
+#cucumber
+json-1.5.3
+installed gherkin-2.4.6
+installed term-ansicolor-1.0.6
+installed builder-3.0.0
+installed cucumber-1.0.2
+
