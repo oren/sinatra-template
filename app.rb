@@ -4,6 +4,8 @@ require_relative 'helpers/init'
 require_relative 'models/init'
 
 class MyApp < Sinatra::Base
+  set :root, File.expand_path('../', __FILE__)
+
   configure :development do
   end
 
