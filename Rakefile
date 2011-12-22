@@ -5,6 +5,7 @@ task :default => [:test]
 desc 'Run Minitest'
 task :test do
   ruby "test/models/test*.rb"
+  ruby "test/routes/test*.rb"
 end
 
 YARD::Rake::YardocTask.new do |t|

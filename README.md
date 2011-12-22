@@ -1,29 +1,43 @@
-This is the source code for the sinatra-template project on github.
-It's the basic structure I use for my Sinatra projects and it make things a bit more organized.
+This is the source code for the sinatra-template project on github.  
+It's the basic structure I use for my Sinatra projects and it make things a bit more organized.  
 
-The structure
--------------
+What's inside?
+--------------
 
-  app.rb           # require sinatra, haml, vendor'd gems, models/init, routes/init, helpers/init
-  helpers/         
+* Modular Sinatra app version 1.3.1 using ruby 1.9.3@p0
+* minitest for unit-level tests
+* rack-test for routes tests
+* capibara for integration tests (TBD)
+* yard for documentation
+* Rakefile, Gemfile, .rvmrc, .gitignore
+
+Folders Structure
+----------------
+
+    app.rb         # require sinatra, vendor'd gems, models/init, routes/init, helpers/init
+
+    helpers/         
       init.rb      # Requires each helper file
       helper1.rb   # Related helper methods
 
-  models/          
+    models/          
       init.rb      # Require sequel, set up the DB; require each model, in controlled order
-      foo.rb       # One or more Sequel models
-      bar.rb       # One or more related models
+      user.rb      # model
+      picture.rb   # model
 
-  routes/          
+    routes/          
       init.rb      # Require each route, in controlled order
+      user.rb      # One or more routes related to some feature
       admin.rb     # One or more routes related to administration
-      foo.rb       # One or more routes related to some feature
 
-  views/
-      layout.haml  # Common layout
-      foo.haml     # Specific view
-      bar.haml     # Specific view
+    views/
+      layout.erb   # Common layout
+      index.erb    # Specific view
 
+    test/         
+      models       # minitest
+      routes       # rack-test
+      interaction  # capibara (TBD)
 
 Setup
 -----
