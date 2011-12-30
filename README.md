@@ -7,12 +7,12 @@ What's inside?
 * Modular Sinatra app version 1.3.1 using ruby 1.9.3@p0
 * minitest for unit-level tests
 * rack-test for routes tests
-* capibara for integration tests (TBD)
+* capibara + minitest for integration tests (no need for rspec)
 * yard for documentation
 * Rakefile, Gemfile, .rvmrc, .gitignore
 
 Folders Structure
-----------------
+------------------
 
     app.rb         # require sinatra, vendor'd gems, models/init, routes/init, helpers/init
 
@@ -37,7 +37,7 @@ Folders Structure
     test/         
       models       # minitest
       routes       # rack-test
-      interaction  # capibara (TBD)
+      interaction  # capibara + minitest
 
 Setup
 -----
@@ -48,23 +48,30 @@ Install Ruby 1.9.3 (if necessary). RVM is optional, but highly recommended
     git clone https://github.com/oren/sinatra-template.git
     cd sinatra-template (it will create sinatra-template gemset)
 
+[Install QT](https://github.com/thoughtbot/capybara-webkit/wiki/Installing-QT) (needed for capybara-webkit)
+
 Install bundler
 
     gem install bundler
 
-For local development, install the required gems, minus the production and staging gemspecs
+Install the gems
 
     bundle install --without production staging
 
-Run the tests
+View all available rake commands
 
-    rake
+    rake -T
 
-Generate YARD documentation
-
-    rake yard
+    rake                  # Run all tests
+    rake test:acceptance  # Run acceptance tests
+    rake test:models      # Run models tests
+    rake test:routes      # Run routes tests
+    rake yard             # Generate YARD Documentation
 
 Run the server
 
     shotun
-    and go to: http://127.0.0.1:9393
+
+Go to [http://127.0.0.1:9393](http://127.0.0.1:9393)
+
+
