@@ -8,6 +8,11 @@ describe "Home page", %q{
 
   include AcceptanceHelper
 
+  it "return 200" do
+    visit "/"
+    assert_equal 200, page.status_code
+  end
+
   it "greets the visitor" do
     visit "/"
     assert has_content?("This is a neat Sinatra template")
