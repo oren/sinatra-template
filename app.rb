@@ -5,6 +5,8 @@ require_relative 'models/init'
 
 class MyApp < Sinatra::Base
   enable :method_override
+  enable :sessions
+  set :session_secret, 'super secret'
 
   configure do
     set :app_file, __FILE__
