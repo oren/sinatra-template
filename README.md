@@ -7,7 +7,7 @@ What's inside?
 * Modular Sinatra app version 1.3.2 using ruby 1.9.3@p0
 * minitest for unit-level tests
 * rack-test for routes tests
-* capibara + minitest for integration tests (no need for rspec)
+* capybara + minitest for integration tests (no need for rspec)
 * yard for documentation
 * Rakefile, Gemfile, .rvmrc, .gitignore
 
@@ -37,7 +37,7 @@ Folders Structure
     test/         
       models       # minitest
       routes       # rack-test
-      interaction  # capibara + minitest
+      interaction  # capybara + minitest
 
 Setup
 -----
@@ -70,7 +70,7 @@ View all available rake commands
 
 Run the server
 
-    shotun
+    shotgun
 
 Go to [http://127.0.0.1:9393](http://127.0.0.1:9393)
 
