@@ -4,7 +4,7 @@ It's the basic structure I use for my Sinatra projects and it make things a bit 
 What's inside?
 --------------
 
-* Modular Sinatra app version 1.3.2 using ruby 1.9.3@p0
+* Modular Sinatra app version 1.3.2 using ruby 1.9.3-p125
 * minitest for unit-level tests
 * rack-test for routes tests
 * capybara + minitest for integration tests (no need for rspec)
@@ -44,7 +44,7 @@ Setup
 
 Install Ruby 1.9.3 (if necessary). RVM is optional, but highly recommended
 
-    rvm install ruby-1.9.3-p0
+    rvm install ruby-1.9.3-p125
     git clone https://github.com/oren/sinatra-template.git
     cd sinatra-template (it will create sinatra-template gemset)
 

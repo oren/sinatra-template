@@ -1,1 +1,1 @@
-rvm ruby-1.9.3-p0@sinatra-template --create
+rvm ruby-1.9.3-p125@sinatra-template --create
