@@ -37,7 +37,7 @@ Folders Structure
     test/         
       models       # minitest
       routes       # rack-test
-      interaction  # capybara + minitest
+      acceptance  # capybara + minitest
 
 Setup
 -----

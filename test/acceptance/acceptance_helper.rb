@@ -1,4 +1,4 @@
-ENV['RACK_ENV'] = 'test'
+require_relative '../test_helper.rb'
 require_relative '../../app.rb'
 
 # include this in every describe block
