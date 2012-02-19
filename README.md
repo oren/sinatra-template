@@ -17,11 +17,11 @@ Folders Structure
     app.rb         # require sinatra, vendor'd gems, models/init, routes/init, helpers/init
 
     helpers/         
-      init.rb      # Requires each helper file
+      init.rb      # Require each helper file
       helper1.rb   # Related helper methods
 
     models/          
-      init.rb      # Require sequel, set up the DB; require each model, in controlled order
+      init.rb      # Require each model, in controlled order
       user.rb      # model
       picture.rb   # model
 
