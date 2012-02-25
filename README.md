@@ -48,7 +48,7 @@ Install Ruby 1.9.3 (if necessary). RVM is optional, but highly recommended
     git clone https://github.com/oren/sinatra-template.git
     cd sinatra-template (it will create sinatra-template gemset)
 
-[Install QT](https://github.com/thoughtbot/capybara-webkit/wiki/Installing-QT) (needed for capybara-webkit)
+[Install QT](https://github.com/thoughtbot/capybara-webkit/wiki/Installing-Qt-and-compiling-capybara-webkit) (needed for capybara-webkit)
 
 Install bundler
 
