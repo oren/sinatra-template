@@ -46,7 +46,7 @@ GEM
     tilt (1.3.3)
     xpath (0.1.4)
       nokogiri (~> 1.3)
-    yard (0.7.5)
+    yard (0.9.20)
 
 PLATFORMS
   ruby
