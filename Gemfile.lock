@@ -19,8 +19,12 @@ GEM
     ffi (1.0.11)
     json (1.6.5)
     mime-types (1.17.2)
+    mini_portile2 (2.8.0)
     multi_json (1.0.4)
-    nokogiri (1.5.0)
+    nokogiri (1.13.4)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    racc (1.6.0)
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
